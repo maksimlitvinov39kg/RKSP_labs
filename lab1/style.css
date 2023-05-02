@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(241, 252, 249); 
+  }
+  nav a {
+    font-style: italic;
+    color: #6d6d6d; /* цвет текста */
+    font-size: 22px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: bold; /* начертание шрифта */
+  }
+  .list-group a {
+    font-style: italic;
+    color: #6d6d6d; /* цвет текста */
+    font-size: 16px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: bold; /* начертание шрифта */
+
+  }
+  ul {
+    list-style-type: none;
+  }
+.horiz li {
+display: inline-block;
+margin:35px  ;
+}
+.horiz1 li {
+  display: inline-block;
+  margin:25px  ;
+}
+.horiz2 li {
+  display: inline-block;
+  margin:25px  ;
+}
+    .fp h3{
+    font-style: italic;
+    color: #000000; /* цвет текста */
+    font-size: 18px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    background-color: yellowgreen;
+}
+.fpd p {
+    font-style: italic;
+    color: #000000; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    text-align: left;
+    line-height: 24px;
+    /* background-color: rgb(255, 240, 253); */
+}
+.fpo ul{
+    font-style:initial;
+    color: #000000; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    text-align: left;
+    line-height: 40px;
+    list-style-image:url(s2.jpg);
+}
+.wp h3{
+    font-style: italic;
+    color: #000000; /* цвет текста */
+    font-size: 18px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    background-color: rgb(233, 230, 74);
+}
+.wpd p{
+    font-style: italic;
+    color: #000000; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    text-align: left;
+    line-height: 24px;
+
+}
+.wpo ul{
+    font-style:initial;
+    color: #000000; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    text-align: left;
+    line-height: 40px;
+    list-style-image:url(s1.jpg);
+}
+h2 {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+  }
+  hr{
+    height: 2px; /* высота линии */
+    margin: 20px 0; /* отступы от других элементов */
+    border-style: solid; /* стиль рамки */
+    border-width: 2px 0; /* ширина рамки: 2px сверху и снизу, 0px слева и справа */
+    border-radius: 2px;
+    background-color: #000000;
+  }
+  .op h3{
+    font-style: italic;
+    color: #000000; /* цвет текста */
+    font-size: 18px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    background-color: rgb(238, 151, 74);
+  } 
+  .od p {
+    font-style: italic;
+    color: #000000; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    text-align: left;
+    line-height: 24px;
+  }
+  .oo ul{
+    font-style:initial;
+    color: #000000; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    text-decoration: none; /* отменяем подчеркивание */
+    font-weight: 400; /* начертание шрифта */
+    text-align: left;
+    line-height: 40px;
+    list-style-image:url(s3.jpg);
+
+  }
+   body.fam{
+    padding-left: 50px ;
+    padding-right: 50px;
+   }
+   body.off{
+    padding-left: 50px ;
+    padding-right: 50px;
+   }
+   body.wed{
+    padding-left: 50px ;
+    padding-right: 50px;
+   }
+   .button-arrow1 a {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #636869;
+    border-radius: 5px;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+  }
+  .button-arrow2 a { 
+    width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-left: 20px solid #636869;
+  border-radius: 5px;
+  position: absolute;
+  top: 500px;
+  left: 1480px;
+  }
+  .button-arrow3 a { 
+    width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-left: 20px solid #636869;
+  border-radius: 5px;
+  position: absolute;
+  top: 500px;
+  left: 1480px;
+  }
+  .button-arrow4 a {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #636869;
+    border-radius: 5px;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+  }
